@@ -19,11 +19,15 @@ def temp_sleep(seconds=0.1):
 def ChatGPT_single_request(prompt): 
   temp_sleep()
 
-  completion = openai.ChatCompletion.create(
-    model="gpt-3.5-turbo", 
-    messages=[{"role": "user", "content": prompt}]
-  )
-  return completion["choices"][0]["message"]["content"]
+  try: 
+    completion = openai.ChatCompletion.create(
+      model="gpt-4o", 
+      messages=[{"role": "user", "content": prompt}]
+    )
+    return completion["choices"][0]["message"]["content"]
+  except Exception as e: 
+    print (f"ChatGPT_single_request ERROR: {e}")
+    return "ChatGPT ERROR"
 
 
 # ============================================================================
@@ -46,14 +50,14 @@ def GPT4_request(prompt):
 
   try: 
     completion = openai.ChatCompletion.create(
-    model="gpt-4", 
+    model="gpt-4o", 
     messages=[{"role": "user", "content": prompt}]
     )
     return completion["choices"][0]["message"]["content"]
   
-  except: 
-    print ("ChatGPT ERROR")
-    return "ChatGPT ERROR"
+  except Exception as e: 
+    print (f"GPT4 ERROR: {e}")
+    return "GPT4 ERROR"
 
 
 def ChatGPT_request(prompt): 
@@ -71,13 +75,13 @@ def ChatGPT_request(prompt):
   # temp_sleep()
   try: 
     completion = openai.ChatCompletion.create(
-    model="gpt-3.5-turbo", 
+    model="gpt-4o", 
     messages=[{"role": "user", "content": prompt}]
     )
     return completion["choices"][0]["message"]["content"]
   
-  except: 
-    print ("ChatGPT ERROR")
+  except Exception as e: 
+    print (f"ChatGPT ERROR: {e}")
     return "ChatGPT ERROR"
 
 
@@ -208,9 +212,9 @@ def GPT_request(prompt, gpt_parameter):
   """
   temp_sleep()
   try: 
-    response = openai.Completion.create(
-                model=gpt_parameter["engine"],
-                prompt=prompt,
+    response = openai.ChatCompletion.create(
+                model="gpt-4o",
+                messages=[{"role": "user", "content": prompt}],
                 temperature=gpt_parameter["temperature"],
                 max_tokens=gpt_parameter["max_tokens"],
                 top_p=gpt_parameter["top_p"],
@@ -218,10 +222,10 @@ def GPT_request(prompt, gpt_parameter):
                 presence_penalty=gpt_parameter["presence_penalty"],
                 stream=gpt_parameter["stream"],
                 stop=gpt_parameter["stop"],)
-    return response.choices[0].text
-  except: 
-    print ("TOKEN LIMIT EXCEEDED")
-    return "TOKEN LIMIT EXCEEDED"
+    return response.choices[0].message.content
+  except Exception as e: 
+    print (f"GPT API ERROR: {e}")
+    return "GPT API ERROR"
 
 
 def generate_prompt(curr_input, prompt_lib_file): 

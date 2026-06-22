@@ -1,0 +1,232 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 02:13:10",
+  "curr_tile": [
+    73,
+    14
+  ],
+  "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and works at the counter until 8pm, at which point she closes the cafe.",
+  "name": "Isabella Rodriguez",
+  "first_name": "Isabella",
+  "last_name": "Rodriguez",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "Isabella Rodriguez is a cafe owner of Hobbs Cafe who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "Isabella Rodriguez is planning on having a Valentine's Day party at Hobbs Cafe with her customers on February 14th, 2023 at 5pm. She is gathering party material, and is telling everyone to join the party at Hobbs Cafe on February 14th, 2023, from 5pm to 7pm.",
+  "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 142,
+  "importance_ele_n": 8,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "[(ID:Hnpkn7) Monday February 13 -- 08:00 AM] Activity: Isabella is waking up and completing her morning routine, which includes getting ready for the day and having a light breakfast (waking up and stretching)",
+      5
+    ],
+    [
+      "[(ID:Hnpkn7) Monday February 13 -- 08:00 AM] Activity: Isabella is waking up and completing her morning routine, which includes getting ready for the day and having a light breakfast (brushing her teeth)",
+      5
+    ],
+    [
+      "[(ID:Hnpkn7) Monday February 13 -- 08:00 AM] Activity: Isabella is waking up and completing her morning routine, which includes getting ready for the day and having a light breakfast (washing her face)",
+      5
+    ],
+    [
+      "[(ID:Hnpkn7) Monday February 13 -- 08:00 AM] Activity: Isabella is waking up and completing her morning routine, which includes getting ready for the day and having a light breakfast (taking a quick shower)",
+      10
+    ],
+    [
+      "[(ID:Hnpkn7) Monday February 13 -- 08:00 AM] Activity: Isabella is waking up and completing her morning routine, which includes getting ready for the day and having a light breakfast (getting dressed for the day)",
+      10
+    ],
+    [
+      "[(ID:Hnpkn7) Monday February 13 -- 08:00 AM] Activity: Isabella is waking up and completing her morning routine, which includes getting ready for the day and having a light breakfast (preparing a light breakfast)",
+      10
+    ],
+    [
+      "[(ID:Hnpkn7) Monday February 13 -- 08:00 AM] Activity: Isabella is waking up and completing her morning routine, which includes getting ready for the day and having a light breakfast (eating her breakfast)",
+      10
+    ],
+    [
+      "[(ID:Hnpkn7) Monday February 13 -- 08:00 AM] Activity: Isabella is waking up and completing her morning routine, which includes getting ready for the day and having a light breakfast (tidying up the kitchen after breakfast)",
+      5
+    ],
+    [
+      "[(ID:ZdfrXG) Monday February 13 -- 09:00 AM] Activity: Isabella is heading to Hobbs Cafe to open it for the day",
+      60
+    ],
+    [
+      "[(ID:JNf6Qz) Monday February 13 -- 10:00 AM] Activity: Isabella is setting up the cafe for the day, ensuring everything is clean and ready for customers",
+      60
+    ],
+    [
+      "[(ID:nGpf4d) Monday February 13 -- 11:00 AM] Activity: Isabella is serving customers and managing the counter at Hobbs Cafe",
+      60
+    ],
+    [
+      "[(ID:1Coy4L) Monday February 13 -- 12:00 PM] Activity: Isabella is continuing to serve customers and managing the counter at Hobbs Cafe",
+      60
+    ],
+    [
+      "[(ID:9GPEgk) Monday February 13 -- 01:00 PM] Activity: Isabella is taking a short lunch break and enjoying a meal at the cafe",
+      60
+    ],
+    [
+      "[(ID:J3A8gs) Monday February 13 -- 02:00 PM] Activity: Isabella is serving customers and managing the counter at Hobbs Cafe",
+      60
+    ],
+    [
+      "[(ID:mDtKcd) Monday February 13 -- 03:00 PM] Activity: Isabella is preparing promotional materials and decorations for the Valentine's Day party at Hobbs Cafe",
+      60
+    ],
+    [
+      "[(ID:WIXroF) Monday February 13 -- 04:00 PM] Activity: Isabella is finalizing the decorations and setting up the event space for the Valentine's Day party at Hobbs Cafe",
+      60
+    ],
+    [
+      "[(ID:R484iw) Monday February 13 -- 05:00 PM] Activity: Isabella is continuing to serve customers while also spreading the word about the Valentine's Day party to those who visit the cafe",
+      60
+    ],
+    [
+      "[(ID:m8R6D5) Monday February 13 -- 06:00 PM] Activity: Isabella is wrapping up her work at the counter and preparing for the evening closure of the cafe, while also continuing to inform late customers about the",
+      60
+    ],
+    [
+      "[(ID:rU5Oph) Monday February 13 -- 07:00 PM] Activity: Isabella is closing the cafe, cleaning up, and ensuring everything is ready for the next day",
+      60
+    ],
+    [
+      "[(ID:QcFrMA) Monday February 13 -- 08:00 PM] Activity: Isabella is finishing the final clean-up tasks at Hobbs Cafe and locking up for the night. She is also reviewing her checklist to ensure everything is ready",
+      60
+    ],
+    [
+      "[(ID:DprNq9) Monday February 13 -- 09:00 PM] Activity: Isabella is heading home to relax after a long day at the cafe",
+      60
+    ],
+    [
+      "[(ID:q4ceDx) Monday February 13 -- 10:00 PM] Activity: Isabella is relaxing at home, perhaps enjoying a cup of tea and unwinding by reading a book or watching her favorite show",
+      60
+    ],
+    [
+      "[(ID:S9ZBnu) Monday February 13 -- 11:00 PM] Activity: Isabella is getting ready for bed, reflecting on the day's events, and planning for the Valentine's Day party tomorrow before going to sleep",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "[(ID:Hnpkn7) Monday February 13 -- 08:00 AM] Activity: Isabella is waking up and completing her morning routine, which includes getting ready for the day and having a light breakfast",
+      60
+    ],
+    [
+      "[(ID:ZdfrXG) Monday February 13 -- 09:00 AM] Activity: Isabella is heading to Hobbs Cafe to open it for the day",
+      60
+    ],
+    [
+      "[(ID:JNf6Qz) Monday February 13 -- 10:00 AM] Activity: Isabella is setting up the cafe for the day, ensuring everything is clean and ready for customers",
+      60
+    ],
+    [
+      "[(ID:nGpf4d) Monday February 13 -- 11:00 AM] Activity: Isabella is serving customers and managing the counter at Hobbs Cafe",
+      60
+    ],
+    [
+      "[(ID:1Coy4L) Monday February 13 -- 12:00 PM] Activity: Isabella is continuing to serve customers and managing the counter at Hobbs Cafe",
+      60
+    ],
+    [
+      "[(ID:9GPEgk) Monday February 13 -- 01:00 PM] Activity: Isabella is taking a short lunch break and enjoying a meal at the cafe",
+      60
+    ],
+    [
+      "[(ID:J3A8gs) Monday February 13 -- 02:00 PM] Activity: Isabella is serving customers and managing the counter at Hobbs Cafe",
+      60
+    ],
+    [
+      "[(ID:mDtKcd) Monday February 13 -- 03:00 PM] Activity: Isabella is preparing promotional materials and decorations for the Valentine's Day party at Hobbs Cafe",
+      60
+    ],
+    [
+      "[(ID:WIXroF) Monday February 13 -- 04:00 PM] Activity: Isabella is finalizing the decorations and setting up the event space for the Valentine's Day party at Hobbs Cafe",
+      60
+    ],
+    [
+      "[(ID:R484iw) Monday February 13 -- 05:00 PM] Activity: Isabella is continuing to serve customers while also spreading the word about the Valentine's Day party to those who visit the cafe",
+      60
+    ],
+    [
+      "[(ID:m8R6D5) Monday February 13 -- 06:00 PM] Activity: Isabella is wrapping up her work at the counter and preparing for the evening closure of the cafe, while also continuing to inform late customers about the",
+      60
+    ],
+    [
+      "[(ID:rU5Oph) Monday February 13 -- 07:00 PM] Activity: Isabella is closing the cafe, cleaning up, and ensuring everything is ready for the next day",
+      60
+    ],
+    [
+      "[(ID:QcFrMA) Monday February 13 -- 08:00 PM] Activity: Isabella is finishing the final clean-up tasks at Hobbs Cafe and locking up for the night. She is also reviewing her checklist to ensure everything is ready",
+      60
+    ],
+    [
+      "[(ID:DprNq9) Monday February 13 -- 09:00 PM] Activity: Isabella is heading home to relax after a long day at the cafe",
+      60
+    ],
+    [
+      "[(ID:q4ceDx) Monday February 13 -- 10:00 PM] Activity: Isabella is relaxing at home, perhaps enjoying a cup of tea and unwinding by reading a book or watching her favorite show",
+      60
+    ],
+    [
+      "[(ID:S9ZBnu) Monday February 13 -- 11:00 PM] Activity: Isabella is getting ready for bed, reflecting on the day's events, and planning for the Valentine's Day party tomorrow before going to sleep",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Isabella Rodriguez's apartment:main room:bed",
+  "act_start_time": "February 13, 2023, 00:00:00",
+  "act_duration": 480,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude42",
+  "act_event": [
+    "Isabella Rodriguez",
+    "is",
+    "sleep"
+  ],
+  "act_obj_description": "being used for sleeping",
+  "act_obj_pronunciatio": "\ud83d\ude42",
+  "act_obj_event": [
+    "bed",
+    "is used for",
+    "sleep"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

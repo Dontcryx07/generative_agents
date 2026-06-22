@@ -291,6 +291,8 @@ class ReverieServer:
     """
     # <sim_folder> points to the current simulation folder.
     sim_folder = f"{fs_storage}/{self.sim_code}"
+    if not os.path.exists(f"{sim_folder}/movement"):
+      os.makedirs(f"{sim_folder}/movement")
 
     # When a persona arrives at a game object, we give a unique event
     # to that object. 
